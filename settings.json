@@ -1,0 +1,33 @@
+{
+    "workbench.editor.splitInGroupLayout": "horizontal",
+    "workbench.editor.splitSizing": "distribute",
+    "workbench.editor.enablePreview": false,
+    "workbench.sideBar.location": "right",
+
+    "editor.insertSpaces": false,
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+        "*.pdf": "default"
+    },
+    "extensions.ignoreRecommendations": true,
+    "editor.minimap.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.detectIndentation": true,
+    "editor.snippetSuggestions": "top",
+    "files.trimFinalNewlines": true,
+    "settingsSync.ignoredExtensions": [],
+    "files.trimTrailingWhitespaceInRegexAndStrings": false,
+    "42header.email": "gueberso@student.42lyon.fr",
+    "42header.username": "gueberso",
+    "editor.largeFileOptimizations": false
+}

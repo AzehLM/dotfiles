@@ -1,0 +1,76 @@
+	// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+y",
+		"command": "redo"
+	},
+	{
+		"key": "ctrl+shift+z",
+		"command": "-redo"
+	},
+	{
+		"key": "ctrl+y",
+		"command": "-redo"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+	/**
+	* File Explorer
+	**/
+	{
+		"key": "ctrl+d",
+		"command": "duplicate.execute",
+		"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "shift+ctrl+n",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	/**
+	* Terminal Split Panel
+	**/
+	{
+		"key": "ctrl+n",
+		"command": "workbench.action.terminal.split",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+h",
+		"command":
+		"workbench.action.terminal.focusPreviousPane",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "workbench.action.terminal.kill",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "shift+ctrl+[",
+		"command": "editor.fold",
+		"when": "editorFocus"
+	},
+	{
+		"key": "shift+ctrl+]",
+		"command": "editor.unfold",
+		"when": "editorFocus"
+	},
+	{
+        "key": "ctrl+x",
+        "command": "editor.action.clipboardCutAction",
+        "when": "editorTextFocus"
+    },
+	{
+		"key": "ctrl+shift+a",
+		"command": "workbench.action.evenEditorWidths",
+		"when": "editorTextFocus"
+	},
+]
