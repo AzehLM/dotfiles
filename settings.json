@@ -29,5 +29,17 @@
     "files.trimTrailingWhitespaceInRegexAndStrings": false,
     "42header.email": "gueberso@student.42lyon.fr",
     "42header.username": "gueberso",
-    "editor.largeFileOptimizations": false
+    "editor.largeFileOptimizations": false,
+    "tabnine.experimentalAutoImports": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "c": false
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "github.copilot.nextEditSuggestions.enabled": true
 }
